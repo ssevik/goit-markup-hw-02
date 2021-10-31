@@ -1,0 +1,104 @@
+:root{
+  --main-color: #ffffff;
+  --second-bg-color: #2F303A;
+  --text-color: #757575;
+  --title-color: #212121;
+  --hover-color: #2196F3;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --filter-btn-bg: #F5F4FA;
+}
+
+body{
+  background-color: var(--main-color);
+  color: var(--text-color);
+}
+
+/* header start */
+.logo {
+  color: #000000;
+}
+.logo span {
+  color: var(--hover-color);
+}
+.nav-link{
+  color: var(--title-color);
+}
+.nav-link:hover,
+.nav-link:focus{
+  color: var(--hover-color);
+}
+.addres-cont:hover,
+.addres-cont:focus{
+  color: var(--hover-color);
+}
+/* header end */
+
+/* Hero start */
+.hero{
+  background-color: var(--second-bg-color);
+  text-align: center;
+}
+.hero-title {
+  color: var(--main-color);
+}
+.hero-btn{
+  background-color: var(--hover-color);
+  color: var(--main-color);
+}
+/* Hero end */
+
+/* benefit start */
+.benefit-title{
+  color: var(--title-color);
+}
+/* benefit end */
+
+/* class start */
+.section-title{
+  color: var(--title-color);
+  text-align: center;
+}
+/* class end */
+
+/* team start */
+.team-bg{
+  background-color: #F5F4FA;
+}
+.team-title{
+  color: var(--title-color);
+}
+/* team end */
+
+/* portfolio start */
+/* filter start */
+.filter-btn{
+  background-color: var(--filter-btn-bg);
+  color: var(--title-color);
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+  background-color: var(--hover-color);
+  color: var(--main-color);
+}
+/* filter end */
+
+/* work examples start */
+.work-title{
+  color: var(--title-color);
+}
+/* work examples end */
+/* portfolio end */
+
+/* footer start */
+.footer{
+  background-color: var(--second-bg-color);
+  color: var(--main-color);
+}
+.footer-logo{
+  color: var(--main-color);
+}
+.footer-cont{
+  color: var(--footer-text-color);
+}
+/* footer end */
